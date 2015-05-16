@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Carnet de voyage</string>
+    <string name="login">Identifiant</string>
+    <string name="password">Mot de passe</string>
+    <string name="connect">Connexion</string>
+    <string name="login_error">Echec de la connexion.</string>
+    <string name="create_account">Créer un compte</string>
+    <string name="forgot_password">J\'ai oublié mon mot de passe</string>
+    <string name="ask_email_explanation">Entrez votre email, un courriel va être envoyé pour continuer:</string>
+    <string name="send">Envoyer</string>
+    <string name="send_success">Courriel envoyé. Consultez votre messagerie pour continuer.</string>
+    <string name="send_failure">Echec de l\'envoi du courriel. Merci d\'essayer plus tard.</string>
+    
+    <string name="items_tab_name">Mes photos</string>
+    <string name="item_already_uploaded">%1$s est déjà sur le serveur dans un autre album</string>
+    
+    <string name="pick_photo">Choisir une photo</string>
+    <string name="take_photo">Prendre une photo</string>
+    <string name="take_video">Prendre une vidéo</string>
+    <string name="record">Enregistrer un son</string>
+    <string name="write_text">Ecrire un texte</string>
+    
+    <string name="followers_tab_name">Partage</string>
+
+    <string name="menu_add">Ajouter</string>
+    <string name="menu_refresh">Rafraîchir</string>
+    <string name="menu_settings">Paramètres</string>
+    <string name="menu_edit">Editer</string>
+    <string name="menu_save">Enregistrer</string>
+    <string name="menu_cancel">Annuler</string>
+    
+    <string name="delete_item">Etes-vous sûr de vouloir supprimer %1$s ?</string>
+    <string name="yes">oui</string>
+    <string name="no">non</string>
+    
+    <string name="sync_running">Synchronisation en cours avec le serveur ...</string>
+    
+    <string name="visibility">Visibilité de l\'album :</string>
+    <string name="private_choice">Privé : Visible que par vous.</string>
+    <string name="shared_choice">Partagé : Peux être consultés par ceux que vous invitez.</string>
+    <string name="published_choice">Publié : Visible par tout le monde.</string>
+    <string name="archive_explanation">Déplacer tous les éléments vers un nouvel album sur le serveur.</string>
+    <string name="archive_buton">Archiver</string>
+    
+    <string name="network_unreachable">Réseau inaccessible.</string>
+    <string name="network_error">Erreur réseau.</string>
+    <string name="download_failure">Erreur de téléchargement de %1$s. Essayez de synchroniser plus tard.</string>
+    
+    <string name="name">Nom :</string>
+    <string name="year">Année :</string>
+    <string name="description">Description :</string>
+    
+    <string name="email_missing">%1$s n\'a pas d\'adresse email.</string>
+    <string name="delete_contact">Cesser le partage avec %1$s ?</string>
+    <string name="select_email">Choisissez l\'adresse email :</string>
+    
+    <string name="add_contact">Ajouter un contact</string>
+    <string name="enter_email">Entrez l\'email de la personne avec qui vous voulez partager:</string>
+    <string name="add">Ajouter</string>
+    <string name="cancel">Annuler</string>
+    
+    <string name="audio_failure">Erreur de lecture du fichier audio.</string>
+    <string name="video_failure">Erreur de lecture du fichier video.</string>
+</resources>

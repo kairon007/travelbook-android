@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+	<LinearLayout 
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="horizontal" >
+	    
+	    <TextView
+	        android:id="@+id/textView1"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:textSize="@dimen/font_size"
+	        android:text="@string/name" />
+	
+	    <com.bcdlog.travelbook.activities.EditTextWithNext
+	        android:id="@+id/name"
+	        android:layout_width="0dip"
+	        android:layout_height="wrap_content"
+	        android:layout_weight="1"
+	        android:inputType="textCapSentences"
+	        android:textSize="@dimen/font_size"
+	        android:singleLine="true" />
+
+	</LinearLayout>
+	<LinearLayout 
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal" >
+	    <TextView
+	        android:id="@+id/textView2"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/year"
+	        android:textSize="@dimen/font_size"
+	        android:inputType="text" />
+	
+	    <com.bcdlog.travelbook.activities.EditTextWithNext
+	        android:id="@+id/year"
+	        android:layout_width="149dp"
+	        android:layout_height="wrap_content"
+	        android:textSize="@dimen/font_size"
+	        android:inputType="number" />
+	</LinearLayout>
+	<TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/font_size"
+        android:text="@string/description" />
+	<com.bcdlog.travelbook.activities.EditTextWithDone
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:inputType="textMultiLine|textCapSentences"
+	    android:textSize="@dimen/font_size"
+	    android:lines="5"
+	    android:gravity="top"
+	    android:scrollbars="vertical"
+	    android:id="@+id/description" />
+	<RadioGroup 
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content">
+	    <RadioButton
+	        android:id="@+id/radioButtonPrivate"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:textSize="@dimen/font_size"
+	        android:text="@string/private_choice" />
+	
+	    <RadioButton
+	        android:id="@+id/radioButtonShared"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:textSize="@dimen/font_size"
+	        android:text="@string/shared_choice" />
+	
+	    <RadioButton
+	        android:id="@+id/radioButtonPublished"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:textSize="@dimen/font_size"
+	        android:text="@string/published_choice" />
+	</RadioGroup>
+
+
+
+    <Button
+        android:id="@+id/archive"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textSize="@dimen/font_size"
+        android:text="@string/archive_buton" />
+
+</LinearLayout>

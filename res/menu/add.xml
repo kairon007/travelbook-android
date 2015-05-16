@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:id="@+id/add" android:title="@string/menu_add" android:icon="@drawable/add_icon" android:showAsAction="ifRoom">
+        <menu android:id="@+id/add_submenu">
+            <item android:id="@+id/pick_photo"
+                  android:title="@string/pick_photo" />
+            <item android:id="@+id/take_photo"
+                  android:title="@string/take_photo" />
+            <item android:id="@+id/take_video"
+                  android:title="@string/take_video" />
+            <item android:id="@+id/record"
+                  android:title="@string/record" />
+            <item android:id="@+id/write_text"
+                  android:title="@string/write_text" />
+        </menu>
+    </item>
+</menu>

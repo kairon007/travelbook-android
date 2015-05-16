@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="10dp"
+        android:background="@drawable/bg_settings">
+        
+	    <TextView
+	        android:id="@+id/visibility"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:text="@string/visibility"
+	        android:textSize="@dimen/font_size"
+	        android:textColor="#000000"
+	        android:textAppearance="?android:attr/textAppearanceMedium" />
+	
+	    <RadioGroup
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content" >
+	
+	        <RadioButton
+	            android:id="@+id/radioButtonPrivate"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:textColor="#222"
+	            android:textSize="@dimen/font_size"
+	            android:text="@string/private_choice" />
+	
+	        <RadioButton
+	            android:id="@+id/radioButtonShared"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:textColor="#222"
+	            android:textSize="@dimen/font_size"
+	            android:text="@string/shared_choice" />
+	
+	        <RadioButton
+	            android:id="@+id/radioButtonPublished"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:textColor="#222"
+	            android:textSize="@dimen/font_size"
+	            android:text="@string/published_choice" />
+	    </RadioGroup>
+    </LinearLayout>
+    
+    <LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="10dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/bg_settings">
+        
+	    <TextView
+	        android:id="@+id/archive_explanation"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:textColor="#000000"
+	        android:textSize="@dimen/font_size"
+	        android:text="@string/archive_explanation"
+	        android:textAppearance="?android:attr/textAppearanceMedium" />
+	
+	    <Button
+	        android:id="@+id/archive"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_gravity="center_horizontal"
+	        android:layout_marginTop="20dp"
+	        android:textColor="#000000"
+	        android:textSize="@dimen/font_size"
+	        android:text="@string/archive_buton" />
+ 	</LinearLayout>
+ 	<LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="10dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/bg_settings">
+        	
+	    <Button
+	        android:id="@+id/site_button"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_gravity="center_horizontal"
+	        android:layout_marginTop="20dp"
+	        android:layout_marginBottom="20dp"
+	        android:textColor="#000000"
+	        android:textSize="@dimen/font_size"
+	        android:text="@string/site_button" />
+ 	</LinearLayout>
+</LinearLayout>

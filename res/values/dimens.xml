@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 5,    10,      15      , 20 cm-->
+    <!-- small medium  large    x-large-->
+    <dimen name="font_size">16sp</dimen>
+    <dimen name="thumbnail_width">90dp</dimen>
+    <dimen name="thumbnail_heigth">90dp</dimen>
+</resources>
